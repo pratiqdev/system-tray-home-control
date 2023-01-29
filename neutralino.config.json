@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/schemas/neutralino.config.schema.json",
-  "applicationId": "js.neutralino.sample",
+  "applicationId": "js.neutralino.cool-ass-app",
   "version": "1.0.0",
   "defaultMode": "window",
   "port": 0,
@@ -32,7 +32,7 @@
   },
   "modes": {
     "window": {
-      "title": "sthc",
+      "title": "System Tray Home Control",
       "width": 800,
       "height": 500,
       "minWidth": 400,
@@ -45,7 +45,22 @@
       "maximize": false,
       "hidden": false,
       "resizable": true,
-      "exitProcessOnClose": false
+      "exitProcessOnClose": false,
+      "nativeAllowList": [
+        "app.*",
+        "os.*",
+        "computer.*",
+        "custom.*",
+        "debug.*",
+        "events.*",
+        "extensions.*",
+        "filesystem.*",
+        "init.*",
+        "storage.*",
+        "updater.*",
+        "window.*",
+        "debug.log"
+      ]
     },
     "browser": {
       "globalVariables": {

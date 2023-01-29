@@ -1,17 +1,18 @@
-# neutralinojs-minimal
+# System Tray Home Control
 
-The default template for a Neutralinojs app. It's possible to use your favorite frontend framework by using [these steps](https://neutralino.js.org/docs/how-to/use-a-frontend-library).
+I checked out `neutralino` cuz `electron` is bloated af and a resource hog
 
-## Contributors
 
-<a href="https://github.com/neutralinojs/neutralinojs-minimal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=neutralinojs/neutralinojs-minimal" />
-</a>
+- create tray icon with menu
+- register shortcuts
+- create notifications
+- send API requests
+- execute bash commands
+- read and display home control state
 
-## License
 
-[MIT](LICENSE)
 
-## Icon credits
-
-- `trayIcon.png` - Made by [Freepik](https://www.freepik.com) and downloaded from [Flaticon](https://www.flaticon.com)
+Install:    npm install
+Start:      npm start
+Edit:       /resources/js/main
+Docs:       https://neutralino.js.org/docs/api/overview

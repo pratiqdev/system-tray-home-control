@@ -1,0 +1,16 @@
+{
+  "name": "system-tray-home-control",
+  "version": "0.1.0",
+  "description": "Customizable tray shortcuts for home automation",
+  "main": "index.js",
+  "scripts": {
+    "// ": "",
+    "start": "npx @neutralinojs/neu run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.6"
+  }
+}
