@@ -12,7 +12,7 @@ I checked out `neutralino` cuz `electron` is bloated af and a resource hog
 
 
 
-Install:    npm install
-Start:      npm start
-Edit:       /resources/js/main
-Docs:       https://neutralino.js.org/docs/api/overview
+Install:    npm install  
+Start:      npm start  
+Edit:       /resources/js/main  
+Docs:       https://neutralino.js.org/docs/api/overview  
